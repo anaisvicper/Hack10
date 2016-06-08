@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:ConnectionId='1' x:Name="grid1" >
+        <ScrollViewer HorizontalScrollMode="Enabled" VerticalScrollMode="Enabled">
+            <ListView>
+                <StackPanel x:ConnectionId='2' x:Name="stackP" Orientation="Vertical" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+                <Button x:ConnectionId='3' x:Name="addButton" Content="Añadir lista" HorizontalAlignment="Right"  VerticalAlignment="Bottom" RenderTransformOrigin="-2.533,-2.133"                     Background="{x:Null}" BorderBrush="#FFE80808"/>
+            </ListView>
+        </ScrollViewer>
+    </Grid>
+</Page>
+
